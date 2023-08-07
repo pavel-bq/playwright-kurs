@@ -19,7 +19,7 @@ test("@Web Popup validations",async({page})=>
     await page.locator("#mousehover").hover();
     const framesPage = page.frameLocator("#courses-iframe");
     await framesPage.locator("li a[href*='lifetime-access']:visible").click();
-     const textCheck =await framesPage.locator(".text h2").textContent();
+    const textCheck =await framesPage.locator(".text h2").textContent();
     console.log(textCheck.split(" ")[1]);
 
 
@@ -38,7 +38,7 @@ test("Screenshot & Visual comparision",async({page})=>
 test('visual',async({page})=>
 {
     //make payment -when you 0 balance
-      await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+    await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     expect(await page.screenshot()).toMatchSnapshot('landing.png');
 
 })
