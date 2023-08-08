@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-test('Browser Context-Validation Error login', async ({page})=>
+test('Browser Context-Validation Error login1', async ({page})=>
 {
    await page.goto("https://rahulshettyacademy.com/client")
 
@@ -14,7 +14,7 @@ test('Browser Context-Validation Error login', async ({page})=>
    console.log(titles)
 });
 
-test.only('Browser Context-Validation Error login', async ({page})=>
+test('Browser Context-Validation Error login2', async ({page})=>
 {
    await page.goto("https://rahulshettyacademy.com/client")
 

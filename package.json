@@ -7,9 +7,10 @@
     "test": "npx playwright test tests/WebAPIPart1.spec.js --headed"
   },
   "keywords": [],
-  "author": "", 
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.36.2"
+    "@playwright/test": "^1.36.2",
+    "allure": "^0.0.0"
   }
 }

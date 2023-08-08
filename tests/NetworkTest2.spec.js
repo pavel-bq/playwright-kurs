@@ -14,7 +14,7 @@ test.beforeAll( async()=>
 })
 
 
-//create order is success
+//create order is success 
 test('Place the order', async ({page})=>
 {
     page.addInitScript(value => {
